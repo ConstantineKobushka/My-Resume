@@ -1,0 +1,241 @@
+html {
+  box-sizing: border-box;
+  /* scroll-behavior: smooth; */
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.position {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.position span {
+  color: #fb6d3a;
+}
+
+.date {
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: #e5e5e5;
+}
+.inner {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.sidebar {
+  width: 370px;
+  padding-top: 40px;
+  background-color: #1e2939;
+}
+.sidebar__img {
+  object-fit: cover;
+  width: 370px;
+  height: 354px;
+}
+.contacts {
+}
+.contacts,
+.tech-skills,
+.soft-skills {
+  color: #ffffff;
+  padding-left: 40px;
+  margin-bottom: 45px;
+}
+.contacts__title,
+.tech-skills__title,
+.soft-skills__title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+.contacts__title {
+}
+.contacts__phone {
+  display: block;
+}
+.contacts__mail {
+  display: block;
+}
+.tech-skills {
+}
+.tech-skills__title {
+}
+.tech-skills__list {
+}
+.tech-skills__item,
+.soft-skills__item {
+  padding-left: 16px;
+  list-style: none;
+  position: relative;
+}
+.tech-skills__item::before,
+.soft-skills__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fb6d3a;
+}
+.soft-skills {
+}
+.soft-skills__title {
+}
+.soft-skills__list {
+}
+.soft-skills__item {
+}
+.content {
+  padding-left: 90px;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.about-persen {
+  margin-bottom: 40px;
+  padding-top: 100px;
+}
+.about-persen__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.about-persen__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 24px;
+}
+.about-persen__deescription {
+  width: 400px;
+}
+.projects {
+  margin-bottom: 50px;
+}
+.projects__title {
+  margin-bottom: 8px;
+}
+.projects__list {
+}
+.projects__item {
+  padding-left: 26px;
+  list-style: none;
+  position: relative;
+}
+.projects__item:first-child:before,
+.projects__item:nth-child(2):before,
+.projects__item:last-child:before {
+  position: absolute;
+  font-weight: 700;
+  left: 0;
+  width: 13px;
+  height: 13px;
+  color: #000000;
+}
+.projects__item:first-child:before {
+  content: "1.";
+}
+.projects__item:nth-child(2):before {
+  content: "2.";
+}
+.projects__item:last-child:before {
+  content: "3.";
+}
+.projects__link:hover {
+  color: #fb6d3a;
+}
+.experience {
+  margin-bottom: 40px;
+}
+.experience__title {
+  margin-bottom: 12px;
+}
+.experience__box {
+}
+.experience__position {
+  margin-bottom: 11px;
+}
+.experience__date {
+  margin-bottom: 8px;
+}
+.experience__list {
+}
+.experience__item {
+}
+.experience__position {
+}
+.education {
+}
+.education__title {
+  margin-bottom: 12px;
+}
+.education__name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 12px;
+}
+.education__position {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 12px;
+}
+.education__date {
+}
